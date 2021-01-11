@@ -77,7 +77,7 @@ To access Azure Monitor for Azure Data Explorer Clusters directly from an Azure 
 
 These views are also accessible by selecting the resource name of an Azure Data Explorer cluster from within the Azure Monitor insights view.
 
-Azure Monitor for Azure Data Explorer combines both logs and metrics to provide a global monitoring solution. The inclusion of logs-based visualizations requires users to [enable diagnostic logging of their Azure Data Explorer cluster and send them to a Log Analytics workspace.](https://docs.microsoft.com/azure/data-explorer/using-diagnostic-logs?tabs=commands-and-queries#enable-diagnostic-logs). The diagnostic logs that should be enabled are: **Command**, **Query**, **TableDetails**, and **TableUsageStatistics**.
+Azure Monitor for Azure Data Explorer combines both logs and metrics to provide a global monitoring solution. The inclusion of logs-based visualizations requires users to [enable diagnostic logging of their Azure Data Explorer cluster and send them to a Log Analytics workspace](https://docs.microsoft.com/azure/data-explorer/using-diagnostic-logs?tabs=commands-and-queries#enable-diagnostic-logs). The diagnostic logs that should be enabled are: **Command**, **Query**, **TableDetails**, and **TableUsageStatistics**.
 
 ![Screenshot of blue button that displays the text "Enable Logs for Monitoring"](./media/data-explorer/enable-logs.png)
 
